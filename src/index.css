@@ -24,3 +24,13 @@ header h1{
   margin-left: 64px;
   padding: 20px;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+}
+footer p{
+  font-family: 'Poppins', sans-serif;
+  color: #999999;
+}
