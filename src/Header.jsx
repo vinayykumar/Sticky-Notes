@@ -2,7 +2,7 @@ import React from "react";
 
 function Header(){
     return <header>
-        <h1>WorkSpace </h1>
+        <h1>Sticky Notes </h1>
     </header>
 }
 
