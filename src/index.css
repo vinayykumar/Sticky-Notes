@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: #eaeaea;
+  background-color: #d3d3d3;
 }
 
 code {
@@ -56,8 +56,26 @@ footer p{
 }
 
 .card {
-  margin: 64px;
-  background-color: cadetblue;
-  padding: 20px;
+  background-color: #ffffff;
   width: 300px;
+  height: 180px;
+  margin: 16px;
+  margin-left: 64px;
+  padding: 24px;
+  border-radius: 8px
+}
+
+.card h1 {
+  color: #252525;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card p {
+  margin-top  : 16px;
+  color: #252525;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Stickynotes{
+  display: flex ;
 }

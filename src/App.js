@@ -2,8 +2,9 @@ import React from "react";
 // import ReactDOM from "react-dom";
 import Header from "./Header";
 import Footer from "./Footer";
-import Notes from "./notes";
-import Content from "../src/Content";
+import Notes from "./notes.js";
+import Cont from "./Notes.jsx"
+import Content from "./Content"; 
 
 
 
@@ -20,8 +21,8 @@ function createNote(newnote){
 function App(){
   return <div>  
       <Header/>
-      <div>{Notes.map(createNote)}</div>
-      <Notes/>
+      <div className="Stickynotes">{Notes.map(createNote)}</div>
+      <Cont/>
       <Footer/> 
   </div>
 }
