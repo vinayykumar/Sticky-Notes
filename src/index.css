@@ -65,17 +65,26 @@ footer p{
   border-radius: 8px
 }
 
-.card h1 {
-  color: #252525;
-  font-family: 'Poppins', sans-serif;
-}
-
 .card p {
   margin-top  : 16px;
   color: #252525;
   font-family: 'Poppins', sans-serif;
 }
 
+.card h2{
+  color: #252525;
+  font-family: 'Poppins', sans-serif;
+}
+
 .Stickynotes{
   display: flex ;
+}
+
+.CreateNote{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  background-color: #999999 ;
 }

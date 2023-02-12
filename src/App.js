@@ -3,9 +3,9 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Notes from "./notes.js";
-import Cont from "./Notes.jsx"
+// import Cont from "./Notes.jsx"
 import Content from "./Content"; 
-
+import CreateNote from "./CreateNote";
 
 
 function createNote(newnote){
@@ -19,10 +19,17 @@ function createNote(newnote){
 }
 
 function App(){
+
+    function addNote(note){
+      console.log(note);  
+    }
+
   return <div>  
       <Header/>
+      <CreateNote 
+      onAdd={addNote}/>
       <div className="Stickynotes">{Notes.map(createNote)}</div>
-      <Cont/>
+      {/* <Cont/> */}
       <Footer/> 
   </div>
 }
