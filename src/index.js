@@ -8,5 +8,5 @@ import '../src/index.css'
 </style>
 
 ReactDOM.render(
-<App></App>
+<App />
 ,document.getElementById('root'));
